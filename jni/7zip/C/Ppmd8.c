@@ -1,7 +1,7 @@
 /* Ppmd8.c -- PPMdI codec
 2010-03-24 : Igor Pavlov : Public domain
 This code is based on PPMd var.I (2002): Dmitry Shkarin : Public domain */
-
+#include <string.h> //Get a weird error about memset, adding include lets the compiler see the function prototype
 #include <memory.h>
 
 #include "Ppmd8.h"
